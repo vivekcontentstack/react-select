@@ -1,7 +1,7 @@
 // @flow
 
 import { Component, type Element, type ElementRef } from 'react';
-import { findDOMNode } from 'react-dom';
+import ReactDOM from 'react-dom';
 
 type Props = {
   children: Element<*>,
@@ -10,7 +10,10 @@ type Props = {
 
 export default class NodeResolver extends Component<Props> {
   componentDidMount() {
-    this.props.innerRef(findDOMNode(this));
+
+    ReactDOM.findDOMNode
+      ? this.props.innerRef(reactDom.findDOMNode(this))
+      : this.props.innerRef(reactDom.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE.findDOMNode(this));
   }
   componentWillUnmount() {
     this.props.innerRef(null);
