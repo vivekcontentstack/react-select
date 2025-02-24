@@ -13,7 +13,7 @@ import React, { Component, PureComponent } from 'react';
 import memoizeOne from 'memoize-one';
 import { jsx } from '@emotion/core';
 import ReactDOM from 'react-dom';
-import { c as clearIndicatorCSS, a as containerCSS, b as css, d as dropdownIndicatorCSS, g as groupCSS, e as groupHeadingCSS, i as indicatorsContainerCSS, f as indicatorSeparatorCSS, h as inputCSS, l as loadingIndicatorCSS, j as loadingMessageCSS, m as menuCSS, k as menuListCSS, n as menuPortalCSS, o as multiValueCSS, p as multiValueLabelCSS, q as multiValueRemoveCSS, r as noOptionsMessageCSS, s as optionCSS, t as placeholderCSS, u as css$1, v as valueContainerCSS, w as isTouchCapable, x as isMobileDevice, y as defaultComponents, z as classNames, A as isDocumentElement, B as exportedEqual, C as cleanValue, D as scrollIntoView, E as noop, M as MenuPlacer } from './index-75b02bac.browser.esm.js';
+import { c as clearIndicatorCSS, a as containerCSS, b as css, d as dropdownIndicatorCSS, g as groupCSS, e as groupHeadingCSS, i as indicatorsContainerCSS, f as indicatorSeparatorCSS, h as inputCSS, l as loadingIndicatorCSS, j as loadingMessageCSS, m as menuCSS, k as menuListCSS, n as menuPortalCSS, o as multiValueCSS, p as multiValueLabelCSS, q as multiValueRemoveCSS, r as noOptionsMessageCSS, s as optionCSS, t as placeholderCSS, u as css$1, v as valueContainerCSS, w as isTouchCapable, x as isMobileDevice, y as defaultComponents, z as classNames, A as isDocumentElement, B as exportedEqual, C as cleanValue, D as scrollIntoView, E as noop, M as MenuPlacer } from './index-fa0d9f94.esm.js';
 import _css from '@emotion/css';
 
 var diacritics = [{
@@ -403,7 +403,7 @@ var NodeResolver = /*#__PURE__*/function (_Component) {
   _createClass(NodeResolver, [{
     key: "componentDidMount",
     value: function componentDidMount() {
-      ReactDOM.findDOMNode ? this.props.innerRef(reactDom.findDOMNode(this)) : this.props.innerRef(reactDom.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE.findDOMNode(this));
+      ReactDOM.findDOMNode ? this.props.innerRef(ReactDOM.findDOMNode(this)) : this.props.innerRef(ReactDOM.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE.findDOMNode(this));
     }
   }, {
     key: "componentWillUnmount",
@@ -455,7 +455,7 @@ function isTouchDevice() {
 function _createSuper$1(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$1(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$1() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-var canUseDOM = !!( window.document && window.document.createElement);
+var canUseDOM = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
 var activeScrollLocks = 0;
 
 var ScrollLock = /*#__PURE__*/function (_Component) {

@@ -15,7 +15,7 @@ import '@emotion/core';
 import 'react-dom';
 import '@babel/runtime/helpers/typeof';
 import { G as handleInputChange } from '../../dist/index-fa0d9f94.esm.js';
-import { S as Select } from '../../dist/Select-692af88a.esm.js';
+import { S as Select } from '../../dist/Select-01cb3669.esm.js';
 import '@emotion/css';
 import '@babel/runtime/helpers/taggedTemplateLiteral';
 import 'react-input-autosize';

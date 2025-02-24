@@ -22,7 +22,7 @@ require('@emotion/core');
 require('react-dom');
 require('@babel/runtime/helpers/typeof');
 var index$1 = require('../../dist/index-c83548bd.browser.cjs.js');
-var reactSelect = require('../../dist/Select-da0f5276.browser.cjs.js');
+var reactSelect = require('../../dist/Select-cff12049.browser.cjs.js');
 require('@emotion/css');
 require('@babel/runtime/helpers/taggedTemplateLiteral');
 require('react-input-autosize');

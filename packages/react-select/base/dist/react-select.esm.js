@@ -15,7 +15,7 @@ import '@emotion/core';
 import 'react-dom';
 import '@babel/runtime/helpers/typeof';
 import '../../dist/index-fa0d9f94.esm.js';
-export { S as default, d as defaultProps } from '../../dist/Select-692af88a.esm.js';
+export { S as default, d as defaultProps } from '../../dist/Select-01cb3669.esm.js';
 import '@emotion/css';
 import '@babel/runtime/helpers/taggedTemplateLiteral';
 import 'react-input-autosize';

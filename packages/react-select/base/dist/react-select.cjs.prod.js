@@ -11,7 +11,7 @@ require("@babel/runtime/helpers/getPrototypeOf"), require("react"), require("mem
 require("@emotion/core"), require("react-dom"), require("@babel/runtime/helpers/typeof"), 
 require("../../dist/index-32d0e2cc.cjs.prod.js");
 
-var reactSelect = require("../../dist/Select-8b8dbea6.cjs.prod.js");
+var reactSelect = require("../../dist/Select-cfb16ac2.cjs.prod.js");
 
 require("@emotion/css"), require("@babel/runtime/helpers/taggedTemplateLiteral"), 
 require("react-input-autosize"), exports.default = reactSelect.Select, exports.defaultProps = reactSelect.defaultProps;

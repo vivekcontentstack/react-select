@@ -371,7 +371,7 @@ var NodeResolver = function(_Component) {
   return _createClass(NodeResolver, [ {
     key: "componentDidMount",
     value: function() {
-      ReactDOM__default.findDOMNode ? this.props.innerRef(reactDom.findDOMNode(this)) : this.props.innerRef(reactDom.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE.findDOMNode(this));
+      ReactDOM__default.findDOMNode ? this.props.innerRef(ReactDOM__default.findDOMNode(this)) : this.props.innerRef(ReactDOM__default.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE.findDOMNode(this));
     }
   }, {
     key: "componentWillUnmount",
