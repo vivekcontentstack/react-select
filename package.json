@@ -111,13 +111,8 @@
     "release": "yarn build && changeset publish"
   },
   "files": [
-    "packages/react-select/dist",
-    "packages/react-select/src",
-    "packages/react-select/base",
-    "packages/react-select/animated",
-    "packages/react-select/async",
-    "packages/react-select/creatable",
-    "packages/react-select/async-creatable"
+    "dist",
+    "src"
   ],
   "keywords": [
     "combobox",
